@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SeJ-4d-I2W">
+                                <rect key="frame" x="20" y="60" width="30" height="30"/>
+                                <state key="normal" title="开始"/>
+                                <connections>
+                                    <action selector="downloadOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JDK-I2-nYV"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gsr-LX-QC8">
+                                <rect key="frame" x="70" y="74" width="460" height="2"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CjL-es-7hq">
+                                <rect key="frame" x="20" y="110" width="30" height="30"/>
+                                <state key="normal" title="开始"/>
+                                <connections>
+                                    <action selector="downloadTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qoc-6I-Kai"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLd-S6-tzp">
+                                <rect key="frame" x="550" y="60" width="30" height="30"/>
+                                <state key="normal" title="删除"/>
+                                <connections>
+                                    <action selector="deleteOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ThO-Ss-F33"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFl-gl-JR0">
+                                <rect key="frame" x="550" y="110" width="30" height="30"/>
+                                <state key="normal" title="删除"/>
+                                <connections>
+                                    <action selector="deleteTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wlH-pH-H23"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rHx-2u-1ci">
+                                <rect key="frame" x="70" y="124" width="460" height="2"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="AFl-gl-JR0" secondAttribute="trailing" constant="20" id="4Qh-fY-L0M"/>
+                            <constraint firstItem="rHx-2u-1ci" firstAttribute="leading" secondItem="CjL-es-7hq" secondAttribute="trailing" constant="20" id="843-Sl-uUB"/>
+                            <constraint firstItem="SeJ-4d-I2W" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="ELT-fz-V4V"/>
+                            <constraint firstAttribute="trailing" secondItem="iLd-S6-tzp" secondAttribute="trailing" constant="20" id="GRV-6a-1QL"/>
+                            <constraint firstItem="CjL-es-7hq" firstAttribute="top" secondItem="SeJ-4d-I2W" secondAttribute="bottom" constant="20" id="Gjg-z8-1pA"/>
+                            <constraint firstItem="AFl-gl-JR0" firstAttribute="top" secondItem="iLd-S6-tzp" secondAttribute="bottom" constant="20" id="LCA-DH-4QB"/>
+                            <constraint firstItem="gsr-LX-QC8" firstAttribute="leading" secondItem="SeJ-4d-I2W" secondAttribute="trailing" constant="20" id="Lrh-37-pir"/>
+                            <constraint firstItem="gsr-LX-QC8" firstAttribute="trailing" secondItem="iLd-S6-tzp" secondAttribute="leading" constant="-20" id="ODb-o7-tTe"/>
+                            <constraint firstItem="CjL-es-7hq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="SVV-bm-0X5"/>
+                            <constraint firstItem="rHx-2u-1ci" firstAttribute="trailing" secondItem="AFl-gl-JR0" secondAttribute="leading" constant="-20" id="XY5-Mm-6rY"/>
+                            <constraint firstItem="rHx-2u-1ci" firstAttribute="centerY" secondItem="CjL-es-7hq" secondAttribute="centerY" id="ZFQ-nE-tat"/>
+                            <constraint firstItem="iLd-S6-tzp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="b5q-9g-8H9"/>
+                            <constraint firstItem="gsr-LX-QC8" firstAttribute="centerY" secondItem="SeJ-4d-I2W" secondAttribute="centerY" id="cwT-aQ-Fpc"/>
+                            <constraint firstItem="SeJ-4d-I2W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="d5C-Kd-X1z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="one" destination="SeJ-4d-I2W" id="kVz-GZ-5uo"/>
+                        <outlet property="oneProgressView" destination="gsr-LX-QC8" id="nqf-hV-DmW"/>
+                        <outlet property="two" destination="CjL-es-7hq" id="Rbd-2u-2qe"/>
+                        <outlet property="twoProgressView" destination="rHx-2u-1ci" id="akT-X5-ycM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="317" y="378"/>
+        </scene>
+    </scenes>
+</document>

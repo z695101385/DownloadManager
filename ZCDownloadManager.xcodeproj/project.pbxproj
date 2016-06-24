@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7DEEB381D0F16230039F897 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DEEB371D0F16230039F897 /* main.m */; };
+		F7DEEB3B1D0F16230039F897 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DEEB3A1D0F16230039F897 /* AppDelegate.m */; };
+		F7DEEB3E1D0F16230039F897 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DEEB3D1D0F16230039F897 /* ViewController.m */; };
+		F7DEEB411D0F16230039F897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DEEB3F1D0F16230039F897 /* Main.storyboard */; };
+		F7DEEB431D0F16230039F897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DEEB421D0F16230039F897 /* Assets.xcassets */; };
+		F7DEEB461D0F16230039F897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DEEB441D0F16230039F897 /* LaunchScreen.storyboard */; };
+		F7DEEB511D0F16230039F897 /* ZCDownloadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DEEB501D0F16230039F897 /* ZCDownloadManagerTests.m */; };
+		F7DEEB5C1D0F16230039F897 /* ZCDownloadManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DEEB5B1D0F16230039F897 /* ZCDownloadManagerUITests.m */; };
+		F7DEEB6E1D0F16BE0039F897 /* ZCDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DEEB6B1D0F16BE0039F897 /* ZCDownloadManager.m */; };
+		F7DEEB6F1D0F16BE0039F897 /* ZCDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DEEB6D1D0F16BE0039F897 /* ZCDownloadTask.m */; };
+		F7EB09C11D1077D1005409D5 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB09C01D1077D1005409D5 /* NSString+Hash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7DEEB4D1D0F16230039F897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7DEEB2B1D0F16230039F897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7DEEB321D0F16230039F897;
+			remoteInfo = ZCDownloadManager;
+		};
+		F7DEEB581D0F16230039F897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7DEEB2B1D0F16230039F897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7DEEB321D0F16230039F897;
+			remoteInfo = ZCDownloadManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7DEEB331D0F16230039F897 /* ZCDownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCDownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DEEB371D0F16230039F897 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7DEEB391D0F16230039F897 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7DEEB3A1D0F16230039F897 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7DEEB3C1D0F16230039F897 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7DEEB3D1D0F16230039F897 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7DEEB401D0F16230039F897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7DEEB421D0F16230039F897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7DEEB451D0F16230039F897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7DEEB471D0F16230039F897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DEEB4C1D0F16230039F897 /* ZCDownloadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCDownloadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DEEB501D0F16230039F897 /* ZCDownloadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCDownloadManagerTests.m; sourceTree = "<group>"; };
+		F7DEEB521D0F16230039F897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DEEB571D0F16230039F897 /* ZCDownloadManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCDownloadManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DEEB5B1D0F16230039F897 /* ZCDownloadManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCDownloadManagerUITests.m; sourceTree = "<group>"; };
+		F7DEEB5D1D0F16230039F897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DEEB6A1D0F16BE0039F897 /* ZCDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCDownloadManager.h; sourceTree = "<group>"; };
+		F7DEEB6B1D0F16BE0039F897 /* ZCDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCDownloadManager.m; sourceTree = "<group>"; };
+		F7DEEB6C1D0F16BE0039F897 /* ZCDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCDownloadTask.h; sourceTree = "<group>"; };
+		F7DEEB6D1D0F16BE0039F897 /* ZCDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCDownloadTask.m; sourceTree = "<group>"; };
+		F7EB09BF1D1077D1005409D5 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		F7EB09C01D1077D1005409D5 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7DEEB301D0F16230039F897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DEEB491D0F16230039F897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DEEB541D0F16230039F897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7DEEB2A1D0F16230039F897 = {
+			isa = PBXGroup;
+			children = (
+				F7DEEB351D0F16230039F897 /* ZCDownloadManager */,
+				F7DEEB4F1D0F16230039F897 /* ZCDownloadManagerTests */,
+				F7DEEB5A1D0F16230039F897 /* ZCDownloadManagerUITests */,
+				F7DEEB341D0F16230039F897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7DEEB341D0F16230039F897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7DEEB331D0F16230039F897 /* ZCDownloadManager.app */,
+				F7DEEB4C1D0F16230039F897 /* ZCDownloadManagerTests.xctest */,
+				F7DEEB571D0F16230039F897 /* ZCDownloadManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7DEEB351D0F16230039F897 /* ZCDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				F7DEEB691D0F16BE0039F897 /* ZCDownloadManager */,
+				F7DEEB391D0F16230039F897 /* AppDelegate.h */,
+				F7DEEB3A1D0F16230039F897 /* AppDelegate.m */,
+				F7DEEB3C1D0F16230039F897 /* ViewController.h */,
+				F7DEEB3D1D0F16230039F897 /* ViewController.m */,
+				F7DEEB3F1D0F16230039F897 /* Main.storyboard */,
+				F7DEEB421D0F16230039F897 /* Assets.xcassets */,
+				F7DEEB441D0F16230039F897 /* LaunchScreen.storyboard */,
+				F7DEEB471D0F16230039F897 /* Info.plist */,
+				F7DEEB361D0F16230039F897 /* Supporting Files */,
+			);
+			path = ZCDownloadManager;
+			sourceTree = "<group>";
+		};
+		F7DEEB361D0F16230039F897 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7DEEB371D0F16230039F897 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7DEEB4F1D0F16230039F897 /* ZCDownloadManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7DEEB501D0F16230039F897 /* ZCDownloadManagerTests.m */,
+				F7DEEB521D0F16230039F897 /* Info.plist */,
+			);
+			path = ZCDownloadManagerTests;
+			sourceTree = "<group>";
+		};
+		F7DEEB5A1D0F16230039F897 /* ZCDownloadManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7DEEB5B1D0F16230039F897 /* ZCDownloadManagerUITests.m */,
+				F7DEEB5D1D0F16230039F897 /* Info.plist */,
+			);
+			path = ZCDownloadManagerUITests;
+			sourceTree = "<group>";
+		};
+		F7DEEB691D0F16BE0039F897 /* ZCDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				F7EB09BE1D1077D1005409D5 /* MD5 */,
+				F7DEEB6A1D0F16BE0039F897 /* ZCDownloadManager.h */,
+				F7DEEB6B1D0F16BE0039F897 /* ZCDownloadManager.m */,
+				F7DEEB6C1D0F16BE0039F897 /* ZCDownloadTask.h */,
+				F7DEEB6D1D0F16BE0039F897 /* ZCDownloadTask.m */,
+			);
+			path = ZCDownloadManager;
+			sourceTree = "<group>";
+		};
+		F7EB09BE1D1077D1005409D5 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				F7EB09BF1D1077D1005409D5 /* NSString+Hash.h */,
+				F7EB09C01D1077D1005409D5 /* NSString+Hash.m */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7DEEB321D0F16230039F897 /* ZCDownloadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DEEB601D0F16230039F897 /* Build configuration list for PBXNativeTarget "ZCDownloadManager" */;
+			buildPhases = (
+				F7DEEB2F1D0F16230039F897 /* Sources */,
+				F7DEEB301D0F16230039F897 /* Frameworks */,
+				F7DEEB311D0F16230039F897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCDownloadManager;
+			productName = ZCDownloadManager;
+			productReference = F7DEEB331D0F16230039F897 /* ZCDownloadManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7DEEB4B1D0F16230039F897 /* ZCDownloadManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DEEB631D0F16230039F897 /* Build configuration list for PBXNativeTarget "ZCDownloadManagerTests" */;
+			buildPhases = (
+				F7DEEB481D0F16230039F897 /* Sources */,
+				F7DEEB491D0F16230039F897 /* Frameworks */,
+				F7DEEB4A1D0F16230039F897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7DEEB4E1D0F16230039F897 /* PBXTargetDependency */,
+			);
+			name = ZCDownloadManagerTests;
+			productName = ZCDownloadManagerTests;
+			productReference = F7DEEB4C1D0F16230039F897 /* ZCDownloadManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7DEEB561D0F16230039F897 /* ZCDownloadManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DEEB661D0F16230039F897 /* Build configuration list for PBXNativeTarget "ZCDownloadManagerUITests" */;
+			buildPhases = (
+				F7DEEB531D0F16230039F897 /* Sources */,
+				F7DEEB541D0F16230039F897 /* Frameworks */,
+				F7DEEB551D0F16230039F897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7DEEB591D0F16230039F897 /* PBXTargetDependency */,
+			);
+			name = ZCDownloadManagerUITests;
+			productName = ZCDownloadManagerUITests;
+			productReference = F7DEEB571D0F16230039F897 /* ZCDownloadManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7DEEB2B1D0F16230039F897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhangchen;
+				TargetAttributes = {
+					F7DEEB321D0F16230039F897 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2YW3ZFECE5;
+					};
+					F7DEEB4B1D0F16230039F897 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2YW3ZFECE5;
+						TestTargetID = F7DEEB321D0F16230039F897;
+					};
+					F7DEEB561D0F16230039F897 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2YW3ZFECE5;
+						TestTargetID = F7DEEB321D0F16230039F897;
+					};
+				};
+			};
+			buildConfigurationList = F7DEEB2E1D0F16230039F897 /* Build configuration list for PBXProject "ZCDownloadManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7DEEB2A1D0F16230039F897;
+			productRefGroup = F7DEEB341D0F16230039F897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7DEEB321D0F16230039F897 /* ZCDownloadManager */,
+				F7DEEB4B1D0F16230039F897 /* ZCDownloadManagerTests */,
+				F7DEEB561D0F16230039F897 /* ZCDownloadManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7DEEB311D0F16230039F897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DEEB461D0F16230039F897 /* LaunchScreen.storyboard in Resources */,
+				F7DEEB431D0F16230039F897 /* Assets.xcassets in Resources */,
+				F7DEEB411D0F16230039F897 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DEEB4A1D0F16230039F897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DEEB551D0F16230039F897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7DEEB2F1D0F16230039F897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DEEB3E1D0F16230039F897 /* ViewController.m in Sources */,
+				F7EB09C11D1077D1005409D5 /* NSString+Hash.m in Sources */,
+				F7DEEB3B1D0F16230039F897 /* AppDelegate.m in Sources */,
+				F7DEEB6E1D0F16BE0039F897 /* ZCDownloadManager.m in Sources */,
+				F7DEEB6F1D0F16BE0039F897 /* ZCDownloadTask.m in Sources */,
+				F7DEEB381D0F16230039F897 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DEEB481D0F16230039F897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DEEB511D0F16230039F897 /* ZCDownloadManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DEEB531D0F16230039F897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DEEB5C1D0F16230039F897 /* ZCDownloadManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7DEEB4E1D0F16230039F897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7DEEB321D0F16230039F897 /* ZCDownloadManager */;
+			targetProxy = F7DEEB4D1D0F16230039F897 /* PBXContainerItemProxy */;
+		};
+		F7DEEB591D0F16230039F897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7DEEB321D0F16230039F897 /* ZCDownloadManager */;
+			targetProxy = F7DEEB581D0F16230039F897 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7DEEB3F1D0F16230039F897 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7DEEB401D0F16230039F897 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7DEEB441D0F16230039F897 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7DEEB451D0F16230039F897 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7DEEB5E1D0F16230039F897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7DEEB5F1D0F16230039F897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7DEEB611D0F16230039F897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCDownloadManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangchen.ZCDownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7DEEB621D0F16230039F897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCDownloadManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangchen.ZCDownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7DEEB641D0F16230039F897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCDownloadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangchen.ZCDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCDownloadManager.app/ZCDownloadManager";
+			};
+			name = Debug;
+		};
+		F7DEEB651D0F16230039F897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCDownloadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangchen.ZCDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCDownloadManager.app/ZCDownloadManager";
+			};
+			name = Release;
+		};
+		F7DEEB671D0F16230039F897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZCDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangchen.ZCDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZCDownloadManager;
+			};
+			name = Debug;
+		};
+		F7DEEB681D0F16230039F897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZCDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangchen.ZCDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZCDownloadManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7DEEB2E1D0F16230039F897 /* Build configuration list for PBXProject "ZCDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DEEB5E1D0F16230039F897 /* Debug */,
+				F7DEEB5F1D0F16230039F897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DEEB601D0F16230039F897 /* Build configuration list for PBXNativeTarget "ZCDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DEEB611D0F16230039F897 /* Debug */,
+				F7DEEB621D0F16230039F897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DEEB631D0F16230039F897 /* Build configuration list for PBXNativeTarget "ZCDownloadManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DEEB641D0F16230039F897 /* Debug */,
+				F7DEEB651D0F16230039F897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DEEB661D0F16230039F897 /* Build configuration list for PBXNativeTarget "ZCDownloadManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DEEB671D0F16230039F897 /* Debug */,
+				F7DEEB681D0F16230039F897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7DEEB2B1D0F16230039F897 /* Project object */;
+}
